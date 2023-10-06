@@ -134,11 +134,9 @@ def vueltas(p : int, m : int, h : int, b : int) -> int:
     precio_huevo = h*huevo
     precio_total = precio_panes+precio_leche+precio_huevo
     vuelta = b - precio_total
-    if vuelta >= 0:
-        vuelta == vuelta
+    if vuelta >= 0
         print("Le quedan " +str(vuelta)+ " pesos de vueltas")
     else:
-        vuelta == vuelta*(-1)
         print("Usted quedó debiendo " +str(vuelta*(-1))+ " pesos")    
     return vuelta
 
